@@ -1,5 +1,8 @@
 import fastapi
 import pandas as pd
+from pydantic import BaseModel
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics.pairwise import linear_kernel
 
 
 # Primera función def (PlayTimeGenre)
@@ -135,6 +138,54 @@ def sentiment_analysis(year: int):
     resultado = {'Negative': total_negativos, 'Neutral': total_neutros, 'Positive': total_positivos}
 
     return resultado
+
+
+# Función Modelo MC recoemndación de juegos
+#---------------------------------------------
+
+# Cargo la data a un df.
+# Cargo la  data desde el archivo Parquet
+df_mcf = pd.read_parquet('data_mc.parquet')
+
+# Paso 1: Preproceso los datos
+df_mcf['genres_text'] = df_mcf['genres'].apply(lambda x: ' '.join(x))
+
+# Paso 2: Creo una matriz TF-IDF
+tfidf_vectorizer = TfidfVectorizer(stop_words='english')
+tfidf_matrix = tfidf_vectorizer.fit_transform(df_mcf['genres_text'])
+
+# Paso 3: Calculo la similitud de coseno
+cosine_sim = linear_kernel(tfidf_matrix, tfidf_matrix)
+
+# Paso 4: Defino la función de recomendación
+def recomendacion_juego(item_id, cosine_sim=cosine_sim):
+    # Encuentro el índice del juego en función de su item_id.
+    idx = df_mcf[df_mcf['item_id'] == item_id].index[0]
+
+    # Calculo la puntuación de similitud de coseno para todos los juegos con el juego dado.
+    sim_scores = list(enumerate(cosine_sim[idx]))
+
+    # Ordeno los juegos según su puntuación de similitud.
+    sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
+
+    # Obtengo los índices de los juegos más similares.
+    sim_scores = sim_scores[1:6]
+
+    # Obtengo los títulos de los juegos recomendados.
+    game_indices = [i[0] for i in sim_scores]
+    recommended_games = df_mcf['title'].iloc[game_indices]
+
+    return recommended_games
+
+# Modelo Pydantic para la entrada
+class ItemId(BaseModel):
+    item_id: float
+
+# Endpoint para recibir solicitudes de recomendación
+@app.post("/recomendar_juegos/")
+async def get_recommendations(item_id: ItemId):
+    recommendations = recomendacion_juego(item_id.item_id)
+    return {"recomendaciones": recommendations.to_list()}
 
 
 
