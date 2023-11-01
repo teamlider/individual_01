@@ -168,7 +168,7 @@ def recomendacion_juego(item_id, cosine_sim=cosine_sim):
     # Ordeno los juegos según su puntuación de similitud.
     sim_scores = sorted(sim_scores, key=lambda x: x[1], reverse=True)
 
-    # Obtengo los índices de los juegos más similares.
+    # Obtengo los índices de los juegos más similares .
     sim_scores = sim_scores[1:6]
 
     # Obtengo los títulos de los juegos recomendados.
@@ -177,17 +177,10 @@ def recomendacion_juego(item_id, cosine_sim=cosine_sim):
 
     return recommended_games
 
-# Modelo Pydantic para la entrada
-class ItemId(BaseModel):
-    item_id: float
-
-# Endpoint para recibir solicitudes de recomendación
-@app.get("/recomendar_juegos/")
-async def get_recommendations(item_id: ItemId):
-    recommendations = recomendacion_juego(item_id.item_id)
+@app.get("/recomendar_juegos/{item_id}")
+async def get_recommendations(item_id: float):
+    recommendations = recomendacion_juego(item_id)
     return {"recomendaciones": recommendations.to_list()}
-
-
 
 
 
