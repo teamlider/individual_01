@@ -182,7 +182,7 @@ class ItemId(BaseModel):
     item_id: float
 
 # Endpoint para recibir solicitudes de recomendación
-@app.post("/recomendar_juegos/")
+@app.get("/recomendar_juegos/")
 async def get_recommendations(item_id: ItemId):
     recommendations = recomendacion_juego(item_id.item_id)
     return {"recomendaciones": recommendations.to_list()}
