@@ -66,7 +66,7 @@ Con cada archivo listo solo fue convertir las funciones del EDA a END POINTS de 
 y con  cada archivo creo el dataframe con los campos correspondientes por función.
 <img width="681" alt="Captura de pantalla 2023-11-03 a la(s) 4 41 33 p m" src="https://github.com/teamlider/individual_01/assets/54252072/68fd6e08-77ee-4677-9230-74994bae1f91">
 
-
+### Finalmente realizo el deploy en render.
 
 
 
