@@ -33,7 +33,9 @@ Se descargo el dataset del la plataforma STEAM originalmente con tres archivos e
 - user_reviews.json.gz
 - users_items.json.gz
   
-Para cada uno de estos archivos se realizo un ETL  
+Para cada uno de estos archivos se realizo un ETL , proceso de Extracción, Transformación y Lectuta de datos. con el objetivo de alistar los datos para el EDA.en el primer archivo steam_games se descomprimio el archivo , se crea un dataframe y se eliminan bastantes datos nulos y vacios de este archivo y posteriormente se igualan o reinician los indices despues de la limpieza, se realizan algunas transformaciones necesarias como el en campo release_date que se pasa de categorica a formato datatime. en los archivos podrán realizar seguimiento al proceso en detalle.
+
+En los archivos user_reviews y users_items el proceso de extracción fue mas complejo pues estos datos venian anidados dentro de diccionarios. pero basicamente despues de su extracción se les realizo el mismo tratamiento.
   
 
 
