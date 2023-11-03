@@ -35,6 +35,8 @@ Se descargo el dataset del la plataforma STEAM originalmente con tres archivos e
   
 Para cada uno de estos archivos se realizo un ETL , proceso de Extracción, Transformación y Lectuta de datos. con el objetivo de alistar los datos para el EDA.en el primer archivo steam_games se descomprimio el archivo , se crea un dataframe y se eliminan bastantes datos nulos y vacios de este archivo y posteriormente se igualan o reinician los indices despues de la limpieza, se realizan algunas transformaciones necesarias como el en campo release_date que se pasa de categorica a formato datatime. en los archivos podrán realizar seguimiento al proceso en detalle.
 
+<img width="427" alt="Captura de pantalla 2023-11-03 a la(s) 3 59 00 p m" src="https://github.com/teamlider/individual_01/assets/54252072/a8dbccfd-a12b-407b-ba22-7751903e2d1c">
+
 En los archivos user_reviews y users_items el proceso de extracción fue mas complejo pues estos datos venian anidados dentro de diccionarios. pero basicamente despues de su extracción se les realizo el mismo tratamiento. y finalmente exporto los tres archivos limpios en formato.parquet para empezar a bajar el pesos de los datos.
 
 
