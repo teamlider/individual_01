@@ -27,6 +27,16 @@ Proyecto Individual 01 Data Enginer
 | requirements.txt | Bibliotecas necesarias para el render |
 
 
+### Resumen del proceso de desarrollo.
+Se descargo el dataset del la plataforma STEAM originalmente con tres archivos en formato json y comprimidos en gz.
+- steam_games.json.gz
+- user_reviews.json.gz
+- users_items.json.gz
+Para cada uno de estos archivos se realizo un ETL  
+  
+
+
+
 
 
 
