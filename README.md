@@ -51,6 +51,8 @@ Con los tres archivos.parquet ya limpios, inicio el EDA , pero lo realizo con ba
 <img width="1005" alt="Captura de pantalla 2023-11-03 a la(s) 4 14 57 p m" src="https://github.com/teamlider/individual_01/assets/54252072/b57aed74-3a4a-4045-93dc-a2dc026910c6">
 
 
+### Relación entre los campos con el objeto de dar solución a las funciones de manera gráfica.
+<img width="1026" alt="Captura de pantalla 2023-11-03 a la(s) 4 14 37 p m" src="https://github.com/teamlider/individual_01/assets/54252072/c39a2e4e-d76a-4412-9213-c30419e9a26b">
 
 
 
