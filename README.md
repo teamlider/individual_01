@@ -34,6 +34,7 @@ Se descargo el dataset del la plataforma STEAM originalmente con tres archivos e
 - users_items.json.gz
 
 ### Bibliotecas utilizadas en el desarrollo del proyecto.
+<img width="593" alt="Captura de pantalla 2023-11-03 a la(s) 4 46 28 p m" src="https://github.com/teamlider/individual_01/assets/54252072/36c3fd65-228e-453b-968a-4c4082241193">
   
 Para cada uno de estos archivos se realizo un ETL , proceso de Extracción, Transformación y Lectuta de datos. con el objetivo de alistar los datos para el EDA.en el primer archivo steam_games se descomprimio el archivo , se crea un dataframe y se eliminan bastantes datos nulos y vacios de este archivo y posteriormente se igualan o reinician los indices despues de la limpieza, se realizan algunas transformaciones necesarias como el en campo release_date que se pasa de categorica a formato datatime. en los archivos podrán realizar seguimiento al proceso en detalle.
 
