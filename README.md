@@ -55,6 +55,7 @@ Con los tres archivos.parquet ya limpios, inicio el EDA , pero lo realizo con ba
 <img width="1026" alt="Captura de pantalla 2023-11-03 a la(s) 4 14 37 p m" src="https://github.com/teamlider/individual_01/assets/54252072/c39a2e4e-d76a-4412-9213-c30419e9a26b">
 
 Finalizando el proceso en el EDA para cada función, realizo el testing de la función en ipynb. para posteriormente pasarla al main dentro de la API, con su correspondiente archivo.
+<img width="1119" alt="Captura de pantalla 2023-11-03 a la(s) 4 27 18 p m" src="https://github.com/teamlider/individual_01/assets/54252072/2c15850a-6429-4704-9b33-b01a5a0bef76">
 
 
 
