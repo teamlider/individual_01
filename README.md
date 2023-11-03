@@ -67,6 +67,7 @@ y con  cada archivo creo el dataframe con los campos correspondientes por funci√
 <img width="681" alt="Captura de pantalla 2023-11-03 a la(s) 4 41 33 p m" src="https://github.com/teamlider/individual_01/assets/54252072/68fd6e08-77ee-4677-9230-74994bae1f91">
 
 ### Finalmente realizo el deploy en render.
+<img width="1419" alt="Captura de pantalla 2023-11-03 a la(s) 4 43 49 p m" src="https://github.com/teamlider/individual_01/assets/54252072/c2f13ddc-d16e-44c9-a904-32975ff63ccd">
 
 
 
