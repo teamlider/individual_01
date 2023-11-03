@@ -24,6 +24,9 @@ Proyecto Individual 01 Data Enginer
 | data_terceraCuarta_funcion.parquet | Archivo producto del EDA de la tercera  cuarta función con los campos necesarios para la consulta |
 | datosquinta_funcion.parquet | Archivo producto del EDA de la quinta función con los campos necesarios para la consulta |
 | data_mc.parquet | Archivo producto del EDA para la función MC con los campos necesarios para la consulta |
+| requirements.txt | Bibliotecas necesarias para el render |
+
+
 
 
 
