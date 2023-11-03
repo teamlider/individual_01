@@ -76,6 +76,9 @@ y con  cada archivo creo el dataframe con los campos correspondientes por funci√
 ### Link deploy de render
 [https://deploy-hbsg.onrender.com/docs#/)
 
+### Link Video
+(https://youtu.be/XQdfezLSKsQ?si=uMGQHNT7zuFNnKbg)
+
   
 
 
