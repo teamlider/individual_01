@@ -13,7 +13,9 @@ Proyecto Individual 01 Data Enginer
 | ETL_steam_games | proceso de Extracción, Limpieza y lectura del archivo. |
 | ETL_user_reviews | proceso de Extracción, Limpieza y lectura del archivo. |
 | ETL_users_items | proceso de Extracción, Limpieza y lectura del archivo. |
-| GitHub | [plugins/github/README.md][PlGh] |
+| steam_games.parquet | Archivo limpio listo para el EDA |
+| user_reviews.parquet | Archivo limpio listo para el EDA |
+| users_items.parquet | Archivo limpio listo para el EDA |
 | Google Drive | [plugins/googledrive/README.md][PlGd] |
 | OneDrive | [plugins/onedrive/README.md][PlOd] |
 | Medium | [plugins/medium/README.md][PlMe] |
