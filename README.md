@@ -59,6 +59,9 @@ Finalizando el proceso en el EDA para cada función, realizo el testing de la fu
 de esta manera pude optimizar al maximo los archivos y todas la funciones me corrieron sin problemas en el deploy. Para el EDA del modelo lo realice de la misma manera . pero en este caso tome una muestra de los datos pues ya no me quedaba suficiente capacidad en el render.
 
 
+### Muestra para la función del modelo MC ,def recomendacion_juego( id de producto ):
+<img width="403" alt="Captura de pantalla 2023-11-03 a la(s) 4 32 53 p m" src="https://github.com/teamlider/individual_01/assets/54252072/10b14e73-66d6-49be-8254-9064ed605eff">
+
 
 
 
