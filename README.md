@@ -32,6 +32,7 @@ Se descargo el dataset del la plataforma STEAM originalmente con tres archivos e
 - steam_games.json.gz
 - user_reviews.json.gz
 - users_items.json.gz
+  
 Para cada uno de estos archivos se realizo un ETL  
   
 
