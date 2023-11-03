@@ -41,7 +41,7 @@ En los archivos user_reviews y users_items el proceso de extracción fue mas com
 
 <img width="1108" alt="Captura de pantalla 2023-11-03 a la(s) 4 01 38 p m" src="https://github.com/teamlider/individual_01/assets/54252072/de504ba6-1a5e-4b1f-86c8-d0c86c5b3aaf">
 
-Con los tres archivos.parquet ya limpios, inicio el EDA , pero lo realizo con base en el requerimiento para cada función del MVP. Esto con el objeto de seleccionar solo los campos necesarios para cada función para optimizar recursos en cuanto al peso de los archivos y poder finalmente exporta solo el archivo con los campos necesarios para cada función. ademas de analizar graficamente la distribución de los campos en busca de relaciones para poder solucionar el problema para cada función 
+Con los tres archivos.parquet ya limpios, inicio el EDA , pero lo realizo con base en el requerimiento para cada función del MVP. Esto con el objeto de seleccionar solo los campos necesarios para cada función para optimizar recursos en cuanto al peso de los archivos y poder finalmente exportar solo el archivo con los campos necesarios para cada función. además de analizar graficamente la distribución de los campos en busca de relaciones para poder solucionar el problema para cada función. incluyo tambien el desarrollo de una función de prueba para testear el resultado y comprobar que las consultas se estan realizando de manera adecuada.
 
 
 
