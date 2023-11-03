@@ -62,7 +62,8 @@ de esta manera pude optimizar al maximo los archivos y todas la funciones me cor
 ### Muestra para la función del modelo MC ,def recomendacion_juego( id de producto ):
 <img width="403" alt="Captura de pantalla 2023-11-03 a la(s) 4 32 53 p m" src="https://github.com/teamlider/individual_01/assets/54252072/10b14e73-66d6-49be-8254-9064ed605eff">
 
-Con cada archivo listo solo fue convertir las funciones del EDA a END POINTS de FASTAPI dentro del archvio main.py y para cada archivo llamar el dataframe.
+Con cada archivo listo solo fue convertir las funciones del EDA a END POINTS de FASTAPI dentro del archivo main.py.
+y con  cada archivo creo el dataframe con los campos correspondientes por función.
 
 
 
