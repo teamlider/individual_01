@@ -20,3 +20,11 @@ Proyecto Individual 01 Data Enginer
 | EDA_MC.ipynb | Analisis Exploratorio y selección de campos y muestra de datos para la función del MC |
 | main.py | archivo de apis y funciones del proyecto |
 | data_primera_funcion.parquet | Archivo producto del EDA de la primera función con los campos necesarios para la consulta |
+| data_segunda_funcion.parquet | Archivo producto del EDA de la segunda función con los campos necesarios para la consulta |
+| data_terceraCuarta_funcion.parquet | Archivo producto del EDA de la tercera  cuarta función con los campos necesarios para la consulta |
+| datosquinta_funcion.parquet | Archivo producto del EDA de la quinta función con los campos necesarios para la consulta |
+| data_mc.parquet | Archivo producto del EDA para la función MC con los campos necesarios para la consulta |
+
+
+
+
