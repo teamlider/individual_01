@@ -4,4 +4,4 @@ Proyecto Individual 01 Data Enginer
 ## _Desarrollo del Proyecto_
 ### El objetivo de esta primera parte del proyecto individual era realizar el ETL (Extracción, Transformación y Carga ), del data set de la plataforma STEAM, posteriormente el analisis exploratorio de datos con el objetivo de diseñar 5 funciónes y un modelo de MC a través de una sexta función.
 
-En este repositorio vas a encontrar varios archivos con la trazabilidad del proyecto de Data Enginer.
+# En este repositorio vas a encontrar varios archivos con la trazabilidad del proyecto de Data Enginer.
