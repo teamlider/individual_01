@@ -16,7 +16,7 @@ Proyecto Individual 01 Data Enginer
 | steam_games.parquet | Archivo limpio listo para el EDA |
 | user_reviews.parquet | Archivo limpio listo para el EDA |
 | users_items.parquet | Archivo limpio listo para el EDA |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| EDA.ipynb | Analisis Exploratorio y selección de campos necesarios  |
+| EDA_MC.ipynb | Analisis Exploratorio y selección de campos y muestra de datos para la función del MC |
 | Medium | [plugins/medium/README.md][PlMe] |
 | Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
