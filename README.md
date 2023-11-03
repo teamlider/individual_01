@@ -48,6 +48,7 @@ Con los tres archivos.parquet ya limpios, inicio el EDA , pero lo realizo con ba
 
 ### Relación entre los campos.
 <img width="1019" alt="Captura de pantalla 2023-11-03 a la(s) 4 15 14 p m" src="https://github.com/teamlider/individual_01/assets/54252072/7230c70c-ff42-451c-807c-912f37198768">
+<img width="1005" alt="Captura de pantalla 2023-11-03 a la(s) 4 14 57 p m" src="https://github.com/teamlider/individual_01/assets/54252072/b57aed74-3a4a-4045-93dc-a2dc026910c6">
 
 
 
